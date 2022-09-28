@@ -5,6 +5,33 @@
     .rightContainer {
       flex-basis: 94%;
       padding-top: 3.5rem;
+      .profileDetailContainer {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        .profilePic {
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-basis: 10%;
+        }
+        .profileDetails {
+          flex-basis: 90%;
+          h2 {
+            margin: 0;
+            margin-bottom: 5px;
+          }
+          h5 {
+            margin: 0;
+            font-size: 13px;
+          }
+          p {
+            margin: 0;
+            font-size: 13px;
+          }
+        }
+      }
     }
   }
 }
