@@ -1,0 +1,43 @@
+.DashBoxContainer {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 1.7rem 0;
+  .leftContainer {
+    flex-basis: 3%;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #d4d4d4;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightContainer {
+    flex-basis: 97%;
+    .heading {
+      margin: 0;
+    }
+    .subHeading {
+      margin: 0;
+      color: #8f8f8f;
+      margin: 0.2rem 0;
+    }
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin: 0.4rem 0;
+      .statusSignal {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: yellow;
+      }
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.container {
+  background-color: #fafafb;
+  .subContainer {
+    display: flex;
+    .rightContainer {
+      flex-basis: 94%;
+      padding-top: 3.5rem;
+    }
+  }
+}

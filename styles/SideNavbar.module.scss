@@ -1,0 +1,32 @@
+.sideNavbarcontainer {
+  flex-basis: 6%;
+  background-color: inherit;
+  position: sticky;
+  top: 0;
+  height: calc(100vh - 64px);
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  align-items: center;
+  gap: 2rem;
+  .navbarContent {
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.3s all;
+    height: 68px;
+    width: 68px;
+
+    p {
+      margin: 0;
+    }
+  }
+  .navbarContent:hover {
+    background-color: #d3eaff;
+  }
+}

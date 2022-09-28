@@ -1,0 +1,40 @@
+.topNavbarContainer {
+  padding: 0.5rem 2rem;
+  display: flex;
+  background-color: rgb(225 237 255 / 50%);
+  align-items: center;
+  .heading {
+    margin: 0;
+    flex-basis: 88%;
+  }
+  .rightContent {
+    flex-basis: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .iconContainer {
+      padding: 0.3rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s all;
+      cursor: pointer;
+    }
+    .iconContainer:hover {
+      background-color: #dde9f8;
+    }
+    .profileDropDown {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.4rem;
+      border-radius: 10px;
+      transition: 0.3s all;
+      cursor: pointer;
+    }
+    .profileDropDown:hover {
+      background-color: #dde9f8;
+    }
+  }
+}
