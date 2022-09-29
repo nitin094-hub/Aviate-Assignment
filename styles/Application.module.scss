@@ -1,0 +1,10 @@
+.applicationContainer {
+  display: flex;
+  .rightContainer {
+    flex-basis: 70%;
+    margin: 0 auto;
+    .heading {
+      font-size: 40px;
+    }
+  }
+}

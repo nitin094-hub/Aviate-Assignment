@@ -1,8 +1,8 @@
 import styles from "../styles/Home.module.scss";
-import DashBoardBoxLayout from "./components/DashBoardBoxLayout";
-import DashBoxContent from "./components/DashBoxContent";
-import SideNavbar from "./components/SideNavbar";
-import TopNavbar from "./components/TopNavbar";
+import DashBoardBoxLayout from "../components/DashBoardBoxLayout";
+import DashBoxContent from "../components/DashBoxContent";
+import SideNavbar from "../components/SideNavbar";
+import TopNavbar from "../components/TopNavbar";
 import { BsPerson } from "react-icons/bs";
 import Image from "next/image";
 import profile from "../assets/man.png";

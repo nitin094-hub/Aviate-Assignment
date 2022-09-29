@@ -1,6 +1,5 @@
 import React from "react";
-import styles from "../../styles/DashBoardBoxLayout.module.scss";
-import DashBoxContent from "./DashBoxContent";
+import styles from "../styles/DashBoardBoxLayout.module.scss";
 
 function DashBoardBoxLayout({ children, heading, subHeading }) {
   return (

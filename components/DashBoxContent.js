@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/DashBoxContent.module.scss";
+import styles from "../styles/DashBoxContent.module.scss";
 import { BsBuilding } from "react-icons/bs";
 
 function DashBoxContent({

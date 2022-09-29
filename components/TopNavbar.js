@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/TopNavbar.module.scss";
+import styles from "../styles/TopNavbar.module.scss";
 import { AiOutlineSearch } from "react-icons/ai";
 import { IoMdNotifications } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
