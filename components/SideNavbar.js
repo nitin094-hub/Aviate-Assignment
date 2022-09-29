@@ -5,6 +5,7 @@ import { BsPerson } from "react-icons/bs";
 import { RiSuitcaseLine } from "react-icons/ri";
 import { FiInbox } from "react-icons/fi";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 function SideNavbar() {
   const router = useRouter();
@@ -15,12 +16,28 @@ function SideNavbar() {
         className={styles.navbarContent}
         style={router.pathname === "/" ? { backgroundColor: "#d3eaff" } : {}}
       >
-        <AiOutlineHome size={32} />
-        <p>Home</p>
+        <Link href="/">
+          <a>
+            <AiOutlineHome size={32} />
+            <p>Home</p>
+          </a>
+        </Link>
       </div>
-      <div className={styles.navbarContent}>
-        <FiInbox size={32} />
-        <p>Applied</p>
+      <div
+        className={styles.navbarContent}
+        style={
+          router.pathname === "/application"
+            ? { backgroundColor: "#d3eaff" }
+            : {}
+        }
+      >
+        <Link href={"/application"}>
+          <a href="/application">
+            <FiInbox size={32} />
+
+            <p>Applied</p>
+          </a>
+        </Link>
       </div>
       <div className={styles.navbarContent}>
         <BsPerson size={32} />
