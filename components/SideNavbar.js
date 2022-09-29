@@ -32,7 +32,7 @@ function SideNavbar() {
         }
       >
         <Link href={"/application"}>
-          <a href="/application">
+          <a>
             <FiInbox size={32} />
 
             <p>Applied</p>
